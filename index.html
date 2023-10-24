@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>젤다의 전설 왕국의 눈물 비공식 홈페이지</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="data:image/jpeg;base64,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" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/젤다 로고.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">게임탐험지역</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">주 컨텐츠</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">트레일러</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#team">개발팀</a></li>-->
+                        <li class="nav-item"><a class="nav-link" href="#contact">문의하기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"></div>
+                <div class="masthead-heading text-uppercase"></div>
+                <!--<a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>-->
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">키워드</h2>
+                    <h3 class="section-subheading text-muted">젤다에는 모험, 이야기, 전투 세가지 요소가 적절히 조화를 이룹니다.
+                       
+                    </h3>
+                    
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div><img src="assets/img/sky (1).jpg" alt="..." width="250" height="250" class ="placeImg"></div>
+                        <!--<span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>-->
+                        <h4 class="my-3">광활한 모험</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div><img src="assets/img/zelda.jpg" alt="..." width="250" height="250" class ="placeImg"></div>
+                        <!--<span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>-->
+                        <h4 class="my-3">흥미로운 이야기</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div><img src="assets/img/fight.jpg" alt="..." width="250" height="250" class ="placeImg"></div>
+                        <!--<span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>-->
+                        <h4 class="my-3">실감나는 전투</h4>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">주요 컨텐츠</h2>
+                    <h3 class="section-subheading text-muted">젤다에는 다양한 즐길거리가 있습니다.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/zeldaability (1).jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">신비한 능력</div>
+                                <div class="portfolio-caption-subheading text-muted">Ability</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/temple (1).png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">참신한 던전</div>
+                                <div class="portfolio-caption-subheading text-muted">Dungeons</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/Village (1).jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">특색있는 마을</div>
+                                <div class="portfolio-caption-subheading text-muted">Village</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/lynel (1).jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">살아숨쉬는 생물 & 몬스터</div>
+                                <div class="portfolio-caption-subheading text-muted">Creature</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/hateno (1).jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">흥미로운 퀘스트</div>
+                                <div class="portfolio-caption-subheading text-muted">Quests</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/costume (1).jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">수많은 수집요소</div>
+                                <div class="portfolio-caption-subheading text-muted">Costume</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">트레일러</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><a href="https://www.youtube.com/watch?v=RwJtUmmKsYQ"><img class="rounded-circle img-fluid" src="assets/img/zeldaTrailer1.jpg" alt="..." /></a></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 2019</h4>
+                                <h4 class="subheading">젤다의 전설 속편 최초공개</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><a href="https://www.youtube.com/watch?v=7jEaYoJ3mY4"><img class="rounded-circle img-fluid" src="assets/img/zeldatr2 (1).jpg" alt="..." /></a></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 2021</h4>
+                                <h4 class="subheading">젤다의 전설 속편 E3 티저</h4>
+                            </div>
+                            </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><a href="https://www.youtube.com/watch?v=lzqIAOEfCgs"><img class="rounded-circle img-fluid" src="assets/img/zeldatr3 (1).jpeg" alt="..." /></a></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>September 2022</h4>
+                                <h4 class="subheading">젤다의 전설 1차 트레일러</h4>
+                            </div>
+                            </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><a href="https://www.youtube.com/watch?v=ba2r3ckn-Sc"><img class="rounded-circle img-fluid" src="assets/img/zeldatr3 (1).jpg" alt="..." /></a></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>February 2023</h4>
+                                <h4 class="subheading">젤다의 전설 2차 트레일러</h4>
+                            </div>
+                            </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><a href="https://www.youtube.com/watch?v=2R6gtTWmihE"><img class="rounded-circle img-fluid" src="assets/img/zeldafinaltr (1).jpg" alt="..." /></a></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>April 2023</h4>
+                                    <h4 class="subheading">젤다의 전설 최종 트레일러</h4>                                
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <!--<section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">젤다의 전설 왕국의 눈물 개발팀</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                            <h4>Parveen Anand</h4>
+                            <p class="text-muted">Lead Designer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                            <h4>Diana Petersen</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <h4>Larry Parker</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                </div>
+            </div>
+        </section>-->
+        <!-- Clients-->
+        <!--<div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">젤다의 전설 왕국의 눈물과 관련해서 궁금한 점이 있다면 무엇이든 물어보세요!</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://noojam.github.io/" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">신비한 능력</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <a href="https://gamma.app/docs/--xmmv1dde71qdfig?mode=doc"><img class="img-fluid d-block mx-auto" src="assets/img/zeldaability (1).jpg" alt="..." /></a>
+                                    <p> 젤다의 전설에는 - 울트라 핸드, 리버레코, 트레루프 스크래빌드 - 네 가지의 능력이 있으며 <br />네 가지 능력으로 할 수 있는 것은 무궁무진합니다<br />능력을 상황에 맞게 사용하여 모험중에 발생하는 다양한 문제를 해결하세요!</p>
+                                    <ul class="list-inline">
+                                        <h10 class="section-subheading text-muted">
+                                            이미지를 눌러 자세히 보기
+                                        </h10>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        설명 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">참신한 던전</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <a href="https://www.youtube.com/watch?v=qqY041Mng7M"><img class="img-fluid d-block mx-auto" src="assets/img/temple (1).png" alt="..." /></a>
+                                    <p>젤다의 전설에는 하늘섬과 지상에 총 152개의 던전이 존재합니다. <br>능력을 사용하여 던전내부의 다양한 퍼즐들을 풀어나가보세요. <br> 던전을 클리어하며 보상이 주어집니다! 모든 던전을 클리어하여 숨겨진 보상을 찾아보세요!</p>
+                                    <ul class="list-inline">
+                                        <h10 class="section-subheading text-muted">
+                                            이미지를 눌러 자세히 보기
+                                        </h10>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        설명 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">특색있는 마을</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <a href="https://www.youtube.com/watch?v=uIUIJsCZxXo"><img class="img-fluid d-block mx-auto" src="assets/img/Village (1).jpg" alt="..." /></a>
+                                    <p>젤다의 전설에는 총 8개의 마을이 있습니다. <br>모든 마을에는 수많은 사이드 퀘스트가 있으며 마을 주민들을 도우면 보상을 얻을 수 있습니다.<br> 마을 모두 차별화된 특색이 있으니 모든 마을을 찾으러 가보세요! 마을의 장관을 보는 것만으로도 행복할겁니다.</p>
+                                    <ul class="list-inline">
+                                        <h10 class="section-subheading text-muted">
+                                            이미지를 눌러 자세히 보기
+                                        </h10>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        설명 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">살아숨쉬는 생물 & 몬스터</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <a href="https://www.youtube.com/watch?v=pDDWoDzXD_E"><img class="img-fluid d-block mx-auto" src="assets/img/lynel (1).jpg" alt="..." /></a>
+                                    <p>젤다의 전설에 있는 생물과 몬스터는 하나의 생태계를 이루고 있으며 <br>하늘섬, 지상, 지저 모두에 생물이 존재합니다. 그들은 하나의 생태계를 이루고 있죠. <br>각 영역마다 다른 모습을 한 생물들이 많으니 그들과 교감하고 협력하며 때론 싸우기도 해보세요! <br>자연은 많은 것들을 제공해줄 것입니다!</p>
+                                    <ul class="list-inline">
+                                        <h10 class="section-subheading text-muted">
+                                            이미지를 눌러 자세히 보기
+                                        </h10>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        설명 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">흥미로운 퀘스트</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <a href="https://www.youtube.com/watch?v=NSwxiRvarIk"><img class="img-fluid d-block mx-auto" src="assets/img/hateno (1).jpg" alt="..." /></a>
+                                    <p>젤다의 전설에는 메인 퀘스트를 비롯하여 수많은 사이드 퀘스트가 있습니다. <br>퀘스트는 엉뚱한 부탁부터 때론 감동적인 이야기를 우리에게 선사하기도 합니다. <br> 모든 퀘스트를 즐겨보세요! 심취해있는 자신을 볼 수 있을 것입니다!</p>
+                                    <ul class="list-inline">
+                                        <h10 class="section-subheading text-muted">
+                                            이미지를 눌러 자세히 보기
+                                        </h10>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        설명 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">수많은 수집요소</h2>
+                                    <p class="item-intro text-muted">젤다에는 수집욕을 불러일으킬만한 수집품들이 정말 많습니다.</p>
+                                    <a href="https://www.youtube.com/watch?v=fvlaGnR_Abs"><img class="img-fluid d-block mx-auto" src="assets/img/costume (1).jpg" alt="..." /></a>
+                                    <p>젤다에는 무기부터 아이템, 의상까지 수집욕을 불러일으킬만한 수집요소들이 정말 많습니다. <br>좋은 무기를 얻어 적을 손쉽게 물리칠 수 있으며, 의상은 링크의 훨씬 더 멋있는 모습으로 꾸며줄 것입니다. <br>대부분의 의상에는 착용효과가 있으니 다양한 의상을 찾아 다양한 효과를 누려보세요! <br>물론 수집과정이 쉽지만은 않을 겁니다~</p>
+                                    <ul class="list-inline">
+                                        <h10 class="section-subheading text-muted">
+                                            이미지를 눌러 자세히 보기
+                                        </h10>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        설명 닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
